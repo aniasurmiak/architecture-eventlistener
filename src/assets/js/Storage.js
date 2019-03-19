@@ -36,7 +36,7 @@ export default class Storage extends MyNiceEvents {
     const data = this.data
     // transform to string
     const stringified = JSON.stringify(data)
-    // save to locaStorage
+    // save to localStorage
     window.localStorage.setItem(this.key, stringified)
   }
 

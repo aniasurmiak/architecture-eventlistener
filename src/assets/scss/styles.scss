@@ -1,8 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 
 .note {
-  margin: 8px;
+ margin: 8px;
   padding: 8px;
-  background-color: rgb(255, 233, 111);
+  background-color: rgb(208,244,228);
   cursor: pointer;
+  border-radius: 5px;
 }
+
+

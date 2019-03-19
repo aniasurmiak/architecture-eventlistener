@@ -7023,8 +7023,9 @@ a.text-dark:hover, a.text-dark:focus {
 .note {
   margin: 8px;
   padding: 8px;
-  background-color: #ffe96f;
-  cursor: pointer; }
+  background-color: #d0f4e4;
+  cursor: pointer;
+  border-radius: 5px; }
 
 
 /*# sourceMappingURL=styles.css.map*/

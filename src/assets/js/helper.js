@@ -14,7 +14,8 @@ export const renderNotes = notes => {
     .map(
       (note, index) => {
         return `
-        <div class="note col-lg-4" id=${index}>
+        <div class="note col-lg-4" id=${index} title= 
+        "click to remove">
           ${note}
         </div>
       `

@@ -227,7 +227,7 @@ function (_MyNiceEvents) {
       // have access to current data
       var data = this.data; // transform to string
 
-      var stringified = JSON.stringify(data); // save to locaStorage
+      var stringified = JSON.stringify(data); // save to localStorage
 
       window.localStorage.setItem(this.key, stringified);
     }
@@ -290,7 +290,7 @@ var domElements = {
 };
 var renderNotes = function renderNotes(notes) {
   domElements.noteContainer.innerHTML = notes.map(function (note, index) {
-    return "\n        <div class=\"note col-lg-4\" id=".concat(index, ">\n          ").concat(note, "\n        </div>\n      ");
+    return "\n        <div class=\"note col-lg-4\" id=".concat(index, " title= \n        \"click to remove\">\n          ").concat(note, "\n        </div>\n      ");
   }).join("");
   domElements.noteDiv = document.querySelectorAll(".note");
   targetNotes();
