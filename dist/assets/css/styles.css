@@ -7021,10 +7021,13 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 .note {
-  margin: 8px;
   padding: 8px;
+  cursor: pointer; }
+
+span {
+  display: block;
+  padding: 10px;
   background-color: #d0f4e4;
-  cursor: pointer;
   border-radius: 5px; }
 
 .to-do-list {
