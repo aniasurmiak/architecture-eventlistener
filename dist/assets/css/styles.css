@@ -7020,6 +7020,17 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+.container {
+  margin-top: 50px;
+  background-color: #f9f5ea;
+  border-color: #d0f4e4;
+  border-style: solid;
+  border-radius: 20px;
+  padding-bottom: 20px; }
+
+html, body {
+  background-color: #f9f5ea; }
+
 .note {
   padding: 8px;
   cursor: pointer; }
@@ -7033,11 +7044,6 @@ span {
 .to-do-list {
   font-family: Roboto;
   font-size: 50px; }
-
-.container {
-  margin-top: 50px;
-  background-color: #f9f5ea;
-  border-radius: 5px; }
 
 
 /*# sourceMappingURL=styles.css.map*/
